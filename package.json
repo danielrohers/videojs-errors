@@ -1,0 +1,19 @@
+{
+  "name": "videojs-errors",
+  "version": "1.0.0",
+  "description": "A video.js plugin to display errors compatible with versions 4.x and 5.x",
+  "scripts": {
+    "start": "gulp dist && gulp serve"
+  },
+  "author": "Daniel Rôhers Moura <rohersmoura@gmail.com> (https://github.com/danielrohers)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-webserver": "^0.9.1"
+  }
+}
